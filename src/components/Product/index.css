@@ -1,0 +1,29 @@
+.Product {
+  display: flex;
+  border-bottom: solid 2px #EEEEEE;
+  line-height: 3.5em;
+  padding-left: 10px;
+}
+
+.ProductDelete {
+  margin-left: 10px;
+  border: none;
+  font-size: 1.15em;
+  font-weight: bold;
+  color: white;
+  background-color: #e03456;
+  display: block;
+  padding: 20px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.ProductName {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.ProductPrice {
+  display: flex;
+};
+
